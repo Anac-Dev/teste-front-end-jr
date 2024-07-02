@@ -1,0 +1,107 @@
+:export {
+    gray: rgb(159, 159, 159);
+    white: white;
+    black: rgb(42, 42, 42);
+    primaryColor: rgb(247, 25, 99);
+    borderColor: rgb(240, 240, 240);
+    inputColor: rgb(246, 245, 242);
+  }
+  
+  footer {
+    margin-top: 169px;
+    background-color: #2A2A2A;
+    min-height: 325px;
+    max-height: auto;
+  }
+  footer li {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer h5 {
+    margin-bottom: 29px;
+    color: white;
+    font-size: 13px;
+  }
+  footer .container-footer {
+    padding: 33px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer #content-info {
+    flex: 1 1;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 80px;
+  }
+  footer .container-newsletter {
+    flex: 0 0 380px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  footer .about-us nav {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  footer .about-us #items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  footer .about-us #social-media {
+    display: flex;
+    gap: 36px;
+  }
+  footer .useful-information ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  footer .payment-methods ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    gap: 10px;
+  }
+  footer .payment-methods li {
+    width: 67px;
+  }
+  footer .container-footer-bottom {
+    border-top: 1px solid white;
+    background-color: #2A2A2A;
+  }
+  footer .container-footer-bottom .container-bottom {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    max-height: auto;
+    padding: 5px 0;
+  }
+  footer .container-footer-bottom p {
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+  }
+  footer .container-footer-bottom img {
+    margin-left: 32px;
+  }
+  footer .container-footer-bottom .logos-footer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /*# sourceMappingURL=footer.css.map */

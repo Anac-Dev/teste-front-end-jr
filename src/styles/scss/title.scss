@@ -1,0 +1,44 @@
+@import './varibles.scss';
+
+#title {
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: $primaryColor;
+
+    &::before {
+        content: '';
+        display: block;
+        background-color: #DEDEDE;
+        width: 360px;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        left: 30px;
+
+
+        @media (max-width: 1260px) {
+            display: none;
+        }
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        background-color: #DEDEDE;
+        width: 360px;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        right: 30px;
+
+        @media (max-width: 1260px) {
+            display: none;
+        }
+    }
+}

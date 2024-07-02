@@ -1,0 +1,122 @@
+@import './varibles.scss';
+
+footer {
+    margin-top: 169px;
+    background-color: #2A2A2A;
+    min-height: 325px;
+    max-height: auto;
+
+    li {
+        color: white;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h5 {
+        margin-bottom: 29px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .container-footer {
+        padding: 33px 0;
+        width: 100%;
+        height: 100%; 
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between; 
+    }
+
+    #content-info {
+        flex: 1 1;
+        
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 80px;
+    }
+
+    .container-newsletter {
+        flex: 0 0 380px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-us {
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+        }
+
+        #items {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        #social-media {
+            display: flex;
+            gap: 36px;
+        }
+    }
+
+    .useful-information {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+
+    .payment-methods {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            width: 240px;
+            gap: 10px;
+        }
+
+        li {
+            width: 67px;
+        }
+    }
+
+    .container-footer-bottom {
+        border-top: 1px solid white;
+        background-color: #2A2A2A;
+
+        .container-bottom {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 70px;
+            max-height: auto;
+            padding: 5px 0;
+        }
+
+        p {
+            font-size: 10px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        img {
+            margin-left: 32px;
+        }
+
+        .logos-footer {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    }
+}

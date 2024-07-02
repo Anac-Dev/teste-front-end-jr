@@ -1,0 +1,50 @@
+:export {
+    gray: rgb(159, 159, 159);
+    white: white;
+    black: rgb(42, 42, 42);
+    primaryColor: rgb(247, 25, 99);
+    borderColor: rgb(240, 240, 240);
+    inputColor: rgb(246, 245, 242);
+  }
+  
+  #title {
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: rgb(247, 25, 99);
+  }
+  #title::before {
+    content: "";
+    display: block;
+    background-color: #DEDEDE;
+    width: 360px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+  }
+  @media (max-width: 1260px) {
+    #title::before {
+      display: none;
+    }
+  }
+  #title::after {
+    content: "";
+    display: block;
+    background-color: #DEDEDE;
+    width: 360px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+  }
+  @media (max-width: 1260px) {
+    #title::after {
+      display: none;
+    }
+  }
+  
+  /*# sourceMappingURL=title.css.map */

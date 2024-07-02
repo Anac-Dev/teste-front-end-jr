@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../scss/varibles.scss",
+    "../scss/topics.scss"
+  ],
+  "names": [],
+  "mappings": "AAOA;EACI,MAPG;EAQH,OAPI;EAQJ,OALI;EAMJ,cAXW;EAYX,aATU;EAUV,YATS;;;ACDT;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EAEA;EAEA;EAEA;;AAEA;EACI,OD5BD;;AC+BH;EACI,ODhCD;;ACmCH;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA",
+  "file": "topics.css"
+}

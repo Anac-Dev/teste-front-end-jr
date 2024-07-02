@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../scss/varibles.scss"
+  ],
+  "names": [],
+  "mappings": "AAOA;EACI,MAPG;EAQH,OAPI;EAQJ,OALI;EAMJ,cAXW;EAYX,aATU;EAUV,YATS",
+  "file": "varibles.css"
+}
